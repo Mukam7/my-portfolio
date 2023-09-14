@@ -1,0 +1,120 @@
+.ant-layout {
+  background-color: #1a202c;
+}
+
+.home-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d3748;
+  border-radius: 10px;
+  padding: 0 30px;
+  margin-top: 25px;
+}
+
+.home-box-header-left h1 {
+  color: rgb(247, 2, 51);
+  font-size: 36px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.home-box-header-left span {
+  color: #fff;
+}
+
+.home-box-header-left p {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.home-box-header-right img {
+  width: 180px;
+  height: 280px;
+  object-fit: cover;
+  padding: 20px 0px 20px;
+}
+
+.about-mukam-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a202c;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border-width: 1px;
+  border: 1px solid #18161c;
+  margin-top: 50px;
+  padding: 15px 15px;
+}
+
+.about-mukam-me h3 i {
+  color: rgb(247, 2, 51);
+  font-size: 18px;
+}
+
+.level-language {
+  margin-top: 15px;
+}
+
+.ant-tabs-nav-wrap {
+  display: flex;
+  justify-content: center;
+  text-align: center !important;
+}
+
+.ant-tabs-nav-list {
+  gap: 70px;
+}
+
+.ant-tabs-nav-list i {
+  font-size: 25px;
+  color: #fff !important;
+}
+
+.ant-tabs-tab-active i {
+  color: rgb(247, 2, 51) !important;
+}
+
+.ant-tabs-nav-list h3 {
+  font-size: 18px;
+  color: #fff !important;
+}
+
+.ant-progress-text {
+  color: #fff !important;
+}
+
+.progress-about-language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.progress-about-txt p {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.progress-img img {
+  height: 200px !important;
+  object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+  .home-box-header {
+    flex-wrap: wrap !important;
+    justify-content: center;
+    text-align: center;
+  }
+  .progress-about-language {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
