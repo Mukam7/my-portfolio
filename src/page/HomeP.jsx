@@ -75,15 +75,15 @@ const HomeP = () => {
             <div className="about-mukam-me">
               <h3>
                 <i className="fa-sharp fa-solid fa-child-reaching"></i>
-                <span> | Age: 17</span>
+                <span>  Age: 17</span>
               </h3>
               <h3>
                 <i className="fa-solid fa-code"></i>
-                <span> | Job: Programming </span>
+                <span>  Job: Programming </span>
               </h3>
               <h3>
                 <i className="fa-regular fa-futbol"></i>
-                <span> | Hobby: Football</span>
+                <span>  Hobby: Football</span>
               </h3>
             </div>
           </div>

@@ -8,16 +8,13 @@
   align-items: center;
   background-color: #2d3748;
   border-radius: 10px;
-  padding: 0 30px;
+  padding: 0 30px 30px;
   margin-top: 25px;
 }
 
 .home-box-header-left h1 {
   color: rgb(247, 2, 51);
-  font-size: 36px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 3px;
-  font-weight: 700;
 }
 
 .home-box-header-left span {
@@ -41,15 +38,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 600px !important;
   background-color: #1a202c;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
   border-width: 1px;
   border: 1px solid #18161c;
   margin-top: 50px;
-  padding: 15px 15px;
+  padding: 15px 20px;
 }
 
 .about-mukam-me h3 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: rgb(247, 2, 51);
   font-size: 18px;
 }
@@ -116,5 +117,26 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
+  }
+  .about-mukam-me {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-mukam-me {
+    height: 250px;
+    display: grid;
+    justify-content: center;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .progress-about-language {
+    padding-bottom: 70px;
+  }
+  .home-box-header {
+    margin-top: 100px;
   }
 }

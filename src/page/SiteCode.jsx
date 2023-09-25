@@ -17,7 +17,7 @@ const SiteCode = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               culpa.
             </p>
-            <button>More</button>
+            <div className="btn">More site</div>
           </div>
           <div className="site-code-card">
             <img
@@ -28,7 +28,7 @@ const SiteCode = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               culpa.
             </p>
-            <button>More</button>
+            <div className="btn">More site</div>
           </div>
           <div className="site-code-card">
             <img
@@ -39,7 +39,7 @@ const SiteCode = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               culpa.
             </p>
-            <button>More</button>
+            <div className="btn">More site</div>
           </div>
           <div className="site-code-card">
             <img
@@ -50,7 +50,7 @@ const SiteCode = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               culpa.
             </p>
-            <button>More</button>
+            <div className="btn">More site</div>
           </div>
           <div className="site-code-card">
             <img
@@ -61,7 +61,7 @@ const SiteCode = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               culpa.
             </p>
-            <button>More</button>
+            <div className="btn">More site</div>
           </div>
           <div className="site-code-card">
             <img
@@ -72,7 +72,8 @@ const SiteCode = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               culpa.
             </p>
-            <button>More</button>
+            <div className="btn">More site</div>
+
           </div>
         </div>
       </div>
